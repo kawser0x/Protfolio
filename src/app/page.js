@@ -1,12 +1,15 @@
-import Image from "next/image";
-import Navbar from "./component/Navbar";
+
+import AboutPage from "./about/page";
 import Hero from "./hero/page";
+import Skills from "./skills/page";
 
 export default function Home() {
   return (
     <main>
-      <Navbar></Navbar>
       <Hero></Hero>
+      <AboutPage></AboutPage>
+      <Skills></Skills>
+
     </main>
   );
 }

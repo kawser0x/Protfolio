@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section id="home" className="hero min-h-screen bg-base-200">
-      <div className="hero-content text-center">
+    <section  className="hero  shadow-sm bg-slate-200 p-5 mx-auto">
+      <div className="hero-content text-center  p-5">
         <div className="max-w-2xl">
           <h1 className="text-5xl font-bold">
             Hi, I'm <span className="text-accent">KAWSER AHAMAD</span>
